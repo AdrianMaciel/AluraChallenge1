@@ -1,36 +1,40 @@
 <head>
     <meta charset="UTF-8">
     <title>Encriptador</title>
-    <h1>Encriptador de Texto</h1>   
+    <header class="encabezado">Encriptado y Desencriptado de Texto</header>
 </head>
 <body>
-    <div>
-        <input type="text" placeholder="Ingrese el texto" id="texto">
-        <button id="boton">Encriptar</button>
-    </div>
-    <table>
-        <tr>
-            <th>Resultado: </th>
-            <td id="resultado"></td>
-        </tr>
-    </table>
-</body>
-
-<head>
-    <h1>Desencriptador de Texto</h1>   
-</head>
-<body>
-    <div>
-        <input type="text" placeholder="Ingrese el texto" id="texto2">
-        <button id="boton2">Desencriptar</button>
-    </div>
-    <table>
-        <tr>
-            <th>Resultado: </th>
-            <td id="resultado2"></td>
-        </tr>
-    </table>
+    <ul class="lista">
+        <li class="tabla">    
+            <h1 class="titulo">Encriptador de Texto</h1>  
+            <div>
+                <input type="text" placeholder="Ingrese el texto" id="texto" class="texto">
+                <button id="boton" class="boton">Encriptar</button>
+            </div>
+            <table class="respuesta">
+                <tr>
+                    <th class="res">Resultado: </th>
+                    <td id="resultado"></td>
+                </tr>
+            </table>
+        </li>
+        <li class="tabla">
+            <h1 class="titulo">Desencriptador de Texto</h1>
+            <div>
+                <input type="text" placeholder="Ingrese el texto" id="texto2" class="texto">
+                <button id="boton2" class="boton">Desencriptar</button>
+            </div>
+            <table class="respuesta">
+                <tr>
+                    <th class="res">Resultado: </th>
+                    <td id="resultado2"></td>
+                </tr>
+            </table>
+        </li>
+    </ul>
 </body>
 <script src="js/Enc.js"></script>
 <script src="js/Desen.js"></script>
 <script src="js/ver.js"></script>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/vista.css">

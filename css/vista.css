@@ -1,0 +1,51 @@
+.encabezado{
+    background-color: rgb(0, 174, 255);
+    font-size: 35px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.lista{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.tabla{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.titulo{
+    font-size: 25px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+.texto{
+    height: 35px;
+    width: 350px;
+}
+
+.boton{
+    background-color: rgb(0, 174, 255);
+    height: 35px;
+    width: 100px;
+}
+
+.respuesta{
+    margin-top: 15px;
+}
+
+.res{
+    font-weight: bold;
+    padding-right: 5px;
+}
